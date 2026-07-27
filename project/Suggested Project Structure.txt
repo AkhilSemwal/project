@@ -1,0 +1,18 @@
+project/
+│
+├── main.c
+├── expense.c
+├── expense.h
+├── cashflow.c
+├── cashflow.h
+├── heap.c
+├── heap.h
+├── hash.c
+├── hash.h
+├── file.c
+├── file.h
+├── report.c
+├── report.h
+├── expenses.txt
+├── members.txt
+└── Makefile (optional)

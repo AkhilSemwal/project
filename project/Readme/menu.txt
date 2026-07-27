@@ -1,0 +1,13 @@
+========== MENU ==========
+1. Add Expense
+2. View Expenses
+3. Search Expense
+4. Delete Expense
+5. Update Expense
+6. Create Group
+7. Add Member
+8. Split Expense
+9. Cash Flow Minimizer
+10. Reports
+11. Save Data
+12. Exit
