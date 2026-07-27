@@ -1,0 +1,17 @@
+CashFlowMinimizer/
+│
+├── main.c
+├── expense.c
+├── expense.h
+├── group.c
+├── group.h
+├── cashflow.c
+├── cashflow.h
+├── heap.c
+├── heap.h
+├── report.c
+├── report.h
+├── expenses.txt
+├── groups.txt
+├── users.txt
+└── README.md

@@ -1,0 +1,123 @@
+                 CASH FLOW MINIMIZER + EXPENSE TRACKER
+                         PROJECT WORKFLOW
+
+START
+  │
+  ▼
+Load Existing Data
+(Users, Groups, Expenses from text files)
+  │
+  ▼
+Display Main Menu
+  │
+  ├── 1. Add User
+  ├── 2. Create Group
+  ├── 3. Add Expense
+  ├── 4. View Expenses
+  ├── 5. Update/Delete Expense
+  ├── 6. Generate Reports
+  ├── 7. Cash Flow Minimizer
+  ├── 8. Save Data
+  └── 9. Exit
+  │
+  ▼
+Add Users
+- Register users with unique IDs.
+- Store user details.
+  │
+  ▼
+Create Group
+- Create a new group.
+- Add members to the group.
+  │
+  ▼
+Add Expenses
+- Select payer.
+- Enter amount.
+- Select category.
+- Add description.
+- Store expense in a linked list.
+  │
+  ▼
+Calculate Total Expense
+Total = Sum of all recorded expenses.
+  │
+  ▼
+Calculate Individual Share
+Share = Total Expense / Number of Members
+  │
+  ▼
+Calculate Net Balance
+Net Balance = Amount Paid − Individual Share
+
+Positive Balance  → User should receive money.
+Negative Balance  → User should pay money.
+  │
+  ▼
+Cash Flow Minimization
+- Identify creditors (positive balance).
+- Identify debtors (negative balance).
+- Apply Greedy Algorithm.
+- Match the largest creditor with the largest debtor.
+- Continue until all balances become zero.
+  │
+  ▼
+Display Final Transactions
+Example:
+Priya → Aki : ₹1000
+Aman  → Rahul : ₹200
+  │
+  ▼
+Generate Reports
+- Total Expenses
+- Highest Spender
+- Lowest Spender
+- Category-wise Expenses
+- Individual Balance
+- Pending Settlements
+  │
+  ▼
+Save Data
+- users.txt
+- groups.txt
+- expenses.txt
+- transactions.txt
+  │
+  ▼
+EXIT
+
+
+==================== OVERALL FLOW ====================
+
+START
+  │
+  ▼
+Load Data
+  │
+  ▼
+Main Menu
+  │
+  ├── Add User
+  │
+  ├── Create Group
+  │
+  ├── Add Expense
+  │
+  ├── View/Edit/Delete Expense
+  │
+  ├── Calculate Total Expense
+  │
+  ├── Calculate Individual Share
+  │
+  ├── Calculate Net Balance
+  │
+  ├── Cash Flow Minimizer
+  │
+  ├── Display Transactions
+  │
+  ├── Generate Reports
+  │
+  ├── Save Data
+  │
+  ▼
+EXIT
