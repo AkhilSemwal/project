@@ -1,0 +1,64 @@
+Problem Statement
+
+Cash Flow Minimizer with Expense Tracker Using Data Structures and Algorithms
+
+Managing shared expenses among friends, roommates, project teams, or families often becomes complicated when multiple people pay different amounts over time. Manually calculating who owes whom can result in unnecessary transactions, confusion, and errors. Existing manual methods require significant effort to track expenses, calculate balances, and settle debts efficiently.
+
+This project aims to develop a Cash Flow Minimizer with Expense Tracker in C that records shared expenses, calculates each participant's net balance, and determines the minimum number of transactions required to settle all debts. The system uses Data Structures and Algorithms (DSA) such as linked lists, heaps (priority queues), greedy algorithms, and file handling to provide an efficient and scalable solution for expense management and settlement.
+
+What Makes This Project Different?
+
+Unlike a basic expense tracker that only records transactions, this project focuses on both expense management and intelligent debt settlement.
+
+Key Differentiators
+1. Intelligent Cash Flow Minimization
+
+Instead of showing everyone how much they owe, the system computes the minimum number of transactions required to settle all balances using a greedy algorithm.
+
+Example
+
+Without minimization:
+
+A → B ₹200
+A → C ₹300
+D → B ₹150
+D → C ₹250
+
+With minimization:
+
+A → C ₹500
+D → B ₹400
+
+Fewer transactions make settlement faster and simpler.
+
+2. Strong Use of Data Structures
+
+The project is designed around DSA concepts rather than simple CRUD operations.
+
+Linked Lists for dynamic expense storage
+Heaps/Priority Queues for efficient creditor and debtor selection
+Arrays and Structures for users and groups
+File Handling for persistent storage
+Greedy Algorithm for optimized settlements
+3. Efficient Algorithm
+
+The cash flow minimization process uses a greedy approach with heaps, reducing the time required to repeatedly find the largest creditor and debtor.
+
+4. Modular Design
+
+The project is divided into independent modules:
+
+User Management
+Expense Tracking
+Cash Flow Minimization
+Reports and Analytics
+
+This makes the code easier to understand, maintain, and extend.
+
+5. Persistent Data Storage
+
+All users, groups, expenses, and settlements are saved in text files so that data is available even after restarting the program.
+
+6. Educational Value
+
+The project demonstrates how multiple DSA concepts work together in a practical application rather than showcasing a single algorithm in isolation.
